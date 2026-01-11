@@ -252,7 +252,7 @@ with col_main:
             import google.generativeai as genai
             
             # Configure API (Ensure this is valid or use fallback)
-            genai.configure(api_key="AIzaSyA2JAf-osZjk0KI5bLtMPFtC7AjEv9FP04")
+            genai.configure(api_key="API")
             model_gemini = genai.GenerativeModel('gemini-2.0-flash')
             
             st.markdown("### 🤖 Halo Bot: Clinical Note")
